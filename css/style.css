@@ -1,0 +1,219 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header start */
+#header .menu_bar {
+    background-image: linear-gradient(to right, #6db9ef,#7ce08a);
+}
+#header .navbar-nav {
+    /* margin-right: 10rem; */
+    text-align: right;
+    
+    
+}
+#header .nav-link {
+    padding: 6px 12px;
+    color: #fff !important;
+    font-size: 16px !important;
+    text-transform: uppercase;
+}
+#header .navbar-brand {
+   padding-left: 20px;
+}
+#header .navbar-toggler {
+    border: none !important;
+    outline: none !important;
+}
+#header .banner {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/banner-1.jpg') ;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#header .banner h4 {
+    padding-top: 150px;
+    font-weight: 700;
+    letter-spacing: 6px;
+
+}
+ .search_job {
+    padding: 30px 0;
+    background-image: linear-gradient(to right, #6db9ef,#7ce08a);
+    margin: -50px 10% 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.search_job .form-control {
+    max-width: 250px;
+    
+    margin: 10px 5px;
+    border: none;  
+    text-align: center; 
+}
+.search_job .job_btn {
+    max-width: 100px; 
+}
+/* header end */
+/* Brand start */
+#brand_area {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#brand_area h3 {
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#brand_area h3::before {
+    content: '';
+    background-image: linear-gradient(to right, #6db9ef,#7ce08a);
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    z-index: -10;
+    margin-top: -13px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+#brand_area .brand_logo img {
+    max-width: 130px;
+    margin-top: 20px;
+}
+/* Brand end */
+
+/* Job start */
+#jobs {
+    background: #f8f8fa;
+    padding: 50px 0;
+}
+#jobs .company_details {
+    box-shadow: 0 2px 70px 0 rgba(110,130,208,.18);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#jobs .job_update {
+    background: #fff;
+    padding: 10px 20px;
+
+}
+#jobs .job_update .fas {
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #77d1b1;
+}
+#jobs .job_update small {
+    background: #efefef;
+    padding: 1px 3px;
+    margin-right: 5px;
+}
+#jobs .job_update .description a {
+    text-decoration: none;
+    color: #b6bed2;
+    float: right;
+}
+#jobs .company_details .apply-btn {
+    height: 40px;
+    background-image: linear-gradient(to right, #6db9ef,#7ce08a);
+    padding: 7px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#jobs .company_details .apply-btn .btn-primary {
+    float: right;
+    padding: 2px 30px;
+    background: transparent;
+    border: 1px solid #fff;
+    box-shadow: none !important;
+    border-radius: 5px !important;
+
+}
+#jobs .company_details .apply-btn .btn-primary:hover {
+    background: rgba(13, 13, 141, 0.884);
+}
+#jobs .page_link li {
+    height: 25px;
+    width: 25px;
+    list-style: none;
+    display: inline-block;
+    
+}
+
+#jobs .page_link li:hover, .active {
+    background-image: linear-gradient(to right, #6db9ef,#7ce08a);
+    color: white;
+}
+/* Job end */
+/* site stats start */
+#site_stats {
+   padding-top: 70px ;
+
+}
+#site_stats h3 {
+    margin-bottom: 50px;
+    
+}
+#site_stats h3::before {
+    content: '';
+    background-image: linear-gradient(to right, #6db9ef,#7ce08a);
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    z-index: -10;
+    margin-top: -13px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+#site_stats .site_box {
+   
+    box-shadow: 0 2px 70px 0 rgba(110,130,208,.18);
+    margin-bottom: 90px;
+    padding: 30px 0 20px;
+}
+#site_stats .site_box .far {
+    padding-bottom: 10px;
+}
+
+/* site stats end */
+
+/* app start */
+#app {
+    padding: 70px 0;
+    background-image: linear-gradient(to right, #6db9ef,#7ce08a);
+}
+#app .download_image img {
+    width: 180px;
+    padding-top: 50px;
+    margin-right: 30px;
+
+}
+#footer {
+    padding-top: 50px;
+   background: #F8F9FD;
+}
+#footer .des {
+  padding: 30px 170px;
+}
+#footer .social_img img {
+    width: 50px
+}
+#footer hr {
+    height: 1px;
+    color: #b6bed2;
+}
+#footer .fas {
+    color: red;
+    margin: 0 5px;
+}
+/* app end */
